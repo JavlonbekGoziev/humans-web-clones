@@ -1,0 +1,33 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon express.js",
+    "start:dev": "nodemon ./src/express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.0.1",
+    "mongodb": "^6.3.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "yall-scripts": "^1.2.0"
+  },
+  "description": ""
+}

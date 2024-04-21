@@ -1,0 +1,176 @@
+.container {
+    max-width: 480px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px ;
+    border-radius: 13px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    
+}
+
+h1 {
+    margin: 10px;
+
+}
+
+#nomi {
+    padding: 10px;
+    border-radius: 7px;
+    color: #020202;
+    background-color: #ccc;
+}
+
+#tel{
+    padding: 10px;
+    border-radius: 7px;
+    color: #020202;
+    background-color: #ccc;
+}
+
+#mm {
+    padding: 10px;
+    border-radius: 7px;
+    color: #020202;
+    background-color: #ccc;
+}
+form {
+    display: grid;
+    gap: 10px;
+    border-radius: 6px;
+        flex-direction: row;
+        min-height: 64px;
+        padding: 20px 22px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.onlinepaymentsize {
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cards {
+    max-width: 413px;
+    margin: 50px auto;
+    height: 200px;
+    padding: 10px 12px;
+    border: 1px ;
+    border-radius: 13px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ccc;
+    margin-top: -7px;
+}
+
+
+
+p {
+    font-size: 13px;
+
+
+}
+
+.p1 {
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5rem;
+
+}
+
+p2 {
+    color: #ccc;
+    font-size: 13px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    padding: 3px 4px;
+}
+
+.oA {
+    background-color: #fff;
+    border-radius: 15px;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.resize {
+    display: flex;
+}
+
+.uz1 {
+    width: 44px;
+    height: 15px;
+    padding: 2px;
+}
+
+.uz2 {
+    width: 35px;
+    height: 34px;
+    padding: 2px;
+}
+
+.uz3 {
+    width: 46px;
+    height: 30px;
+    padding: 2px;
+}
+
+
+
+.leftmenu {
+    height: 300px;
+    
+    background-color: black;
+    color: white;
+    
+    border-radius: 40px 40px 0 0;
+    padding: 40px;
+    background: var(--dark,#0b0a0b);
+    border-radius: 24px 24px 0 0;
+    color: #fff;
+    padding: 36px;
+    position: relative;
+    z-index: 31;
+    margin: 0;
+}
+.Pz {
+    background: rgba(255,255,255,.1);
+    border-radius: 12px;
+    height: 56px;
+    justify-content: center;
+    width: 56px;
+    margin: 5px;
+}
+.Oz, .Pz {
+    align-items: center;
+    display: flex;
+}

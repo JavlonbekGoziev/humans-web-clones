@@ -1,0 +1,56 @@
+.language-switcher {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+  }
+  
+  #current-lang {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: rgb(34, 33, 33);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 7px;
+    
+}
+
+  #current-lang:hover {
+    color: #333;
+  }
+  
+  .lang-options {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+  }
+  
+  .lang-options.show {
+    display: block;
+  }
+  
+  .lang-options li {
+    padding: 10px;
+  }
+  
+  .lang-options a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .lang-options a:hover {
+    background-color: #333;
+    border-radius: 10px;
+    width: 50px;
+    height: 15px;
+  }
+  

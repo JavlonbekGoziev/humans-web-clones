@@ -1,0 +1,167 @@
+* {
+    position: relative;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 236);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 16px; /* Adjust padding as needed */
+    background-color: white;
+    z-index: 1000; /* Ensure the navbar is above other elements */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+}
+
+span {
+    color: var(--black,var(--text-yellow,#e2aa00));
+}
+
+.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar .eb {
+    margin-right: 10px; /* Adjust spacing between menu items */
+}
+
+.bar .eb a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding: 10px 12px;
+}
+
+.bar .eb a:hover {
+    color: rgb(121, 119, 119);
+}
+
+.bar .eb {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.bar .eb:hover {
+    background-color: transparent;
+}
+
+.id1 {
+    background-image: url('c:\Users\anima\Desktop\imgg11.jpg');
+}
+
+.lb {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.titles {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+#id2 {
+    text-align: center;
+}
+
+.first {
+    text-align: center;
+}
+img {
+    
+    border-radius: 0 0 24px 24px ;
+    z-index: 31;
+    max-width: 84.5rem;
+    max-height: calc(100vh - 70px);
+    
+    position: relative;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 400px;
+    margin: 0 auto; /* Center horizontally */
+    max-width: 500px; /* Set a maximum width */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center text within the <p> element */
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 10px auto; 
+    max-width: 900px; 
+    padding: 20px 5px; 
+    text-align: center; 
+}
+
+.leftmenu {
+    height: 300px;
+    
+    background-color: black;
+    color: white;
+    
+    border-radius: 40px 40px 0 0;
+    padding: 40px;
+    background: var(--dark,#0b0a0b);
+    border-radius: 24px 24px 0 0;
+    color: #fff;
+    padding: 32px;
+    position: relative;
+    z-index: 31;
+}
+.Pz {
+    background: rgba(255,255,255,.1);
+    border-radius: 12px;
+    height: 56px;
+    justify-content: center;
+    width: 56px;
+    margin: 5px;
+}
+.Oz, .Pz {
+    align-items: center;
+    display: flex;
+}
+.support .support2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 3px;
+}
+
+.support .support2 li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.support .support2 li:before {
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.support2 {
+    display: flexbox;
+    margin-left: 15rem;
+    top: -100px;
+    color: white;
+}
+
+
+

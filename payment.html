@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="icon" href="c:\Users\anima\Desktop\Humans.jpg"  type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="onlinepaymentsize"> Online Payment</h1>
+        <form action="payment.css" method="POST">
+            <label for="nomi"></label>
+            <input type="text" id="nomi" name="nomi" placeholder="Oluvchining telefon raqami" required>
+
+            <label for="tel"></label>
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{9}" placeholder="To'lov summasi, UZS" required>
+            <button type="submit">To'lovni amalga oshirish</button>
+        </form>
+    </div>
+    <p class="p1">0% komissiya</p>
+    <div class="cards">
+        <form action="payment.css" method="post"">
+        
+         <p class="p2"> Kartadan to'lash</p>
+           <p "> To'lovni tasdiqlash kodi bank kartangizga bog'langan telefon raqamiga jo'natiladi.</p>
+           <div class="form-row">
+            <div class="oA"><img class="resize uz1" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAVCAMAAADmWplAAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAzUExURUdwTMmiS9S0V8usUM+rUcujS9m6W9m4Ws6qUtCtU8aeSNm6XMehSdm6XcefSNq8XdGtUkeDquQAAAAOdFJOUwCBZhCh5cD9I0PBh1/faBZ5OgAAAfFJREFUOMutlNuW5CAIRaPiBU3E///aAUGTrkq/9BoeSkvi9oDIcSwLOmDzOjpXzFNsykvn/to7h3teY++x+nLc5rO6S84ZZBxjgPniGJGPK53N2ZqTPwrwsS9zN4/IFCYm8ofIwHQDhyzJlqifTXifGkBm1bk6R6McF63dwEAOGvMX8Ox9LBGwgSI1Tqln3BoL0jcwvwCXRBXYT5tZ7mYIMmnIEa+Epa0wfwJHXxpYVlWgSF1bj6rAQgUeQFoKX4AQp8QSezwVGFcq102JUgqJ6EpiABfRLwodA92UyL+nAP0RHhFrzBIxsazb8m8KHRdSEIkicGbUaQp3rZQFDE8g228KuTKFEyVYfAGaQr9yGApbWsBXhZp4FmjA15CR/POWv4FZgW3IfaIU46mb4eNS/AS2Qu1RhwaUJ5jtqY6Rh1ToGE5rIx4bCM8Hp2WTMV1HpusnMAhQj/b2Cg1YYkS7AFCuPce5xGdR8oTtfssKnPV4SXbwytonDPi4UTBVtgxamokwQyHCn0BOIiMT8MvhiMsrsE7BQmR/WI8GRWJp1H4CuZqkJLPw8vS9Aw+c3as+mg2zIIWWdyPL1ucuI965fHbQuFtLtW4YvbmY2K7iLYmhhF1XDQAarv+3Q70bXzxUcHi7fcp3If4fC/hx/J/tH26BIwE7aU47AAAAAElFTkSuQmCC"></div>
+            <div class="oA"><img class="resize uz2" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQBAMAAAB8P++eAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAhUExURUdwTB8+eR89eh49eCA9dh89eEJHbO5/Ge9/GR8+ee9/GvOrRoEAAAAJdFJOUwDfnXUYwjt+33qTHx0AAAFWSURBVEjH7ZYtU8NAEIa3zSWlrsyAiGtB4WIQcUHADA7aGlwFBhSSQVVXQT46sw7Nr+QmXDa9r2YRrcrrbufJ7t7t3l4Aeh1cHz9Sb1zwW7cNUSlRhgA/4dUBjhtwogwhlnDCAQe4hREPLEBsWGD1t5tuELM6NgNMapcMsASINhxQJgnR+7obpMPvBAsu6HLpBr8yJoj5igkizhMmKLutB48BhqdKkw7QpyOAwwulaV/Cf4CWfeCpANlLM8SDDoaNfasMLx6Qno+CC1bKcGU+PPT+NFJzKW7WxvSJUPfQfmiAAvXd3NDabMgnzYWIzZxJKYF5BqJdWeOZjkM6mbfu6Vzt0hiy7lDgAa15LzygPe5TJ5fbF/beCZ7ZYMBLcbcN9kcGuOVF3i0byfHEuV0uPZMq5WRYN6UevFp5h18Q8zjpc0bcIts/Ue+uH+Vuzy+f+7/ig+gXxEplSEzm2J4AAAAASUVORK5CYII="></div>
+            <div class="oA"><img class="resize uz3" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAA2CAMAAAAPkWzgAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAA5UExURUdwTBY0fAxElRotcxspbhM4gxU0fhM3gRI4ggtElBE7hxQ2gBYyeghKnR4laBA9igxFlRM5hBsrcAu8YMMAAAAMdFJOUwB1pabfXMQ7Gd6Q7yQZm34AAALRSURBVFjD7VbbkqwgDAQ1XLwi//+xJyQh4oxLbe3TeTBO1ZQ6002nk4Axb7zxxhtvdCN4wPDhFz+1UxMOmjeOn1ljfPmOk5MXfo7nwREHf5G6SOE+FwPjfoXV5z7nvGIggl3XEz+j4JxnxT+OpH8IMaWN4kEXuEow6bMxr8iQy3rGlYKw/FLwy4XoeKmCAfHLtW3+MamTMFT6kIuCvJakOSbwFb9RcOhyUYAosI9eeCGo9MD4RVEg+HMtWPFkAqFIUZNQ4JlheHb7w4Qpk4RyCyygJAsEPlrwHmZ3DDcBnKLtmUCsHi+Li4Ky6pkJyhvHApwmsgr2KTHDDy6Xer25PBJ+JjpHCSI3GP+Er38PBB/ZBHjundblwAnKtMDl8vhcieAry4HXD0wwP+doalwGIqAaNZ7xF+ISj134ErAldJwluGeCuXF5YgGktfG4eoA1NLQUpcmQYjAzS3gmgMtlzwLYj1ub1SJFCntRAFmcgpEc+Z4JTizG4JJt2gxLoSrAT/RtjZYMmdBrNcPzIleLc2a/GX+V9VpSIH0Gtxotd1uv1ebqsmV8bgn0OFcL6D42o8JrjVKGcJFEEE1vWoB0cZakXG1WMx6VwWmNpkTLnrdOq5EJeZ8h71qjasGteSDyJOJZJwK45HouiwnOsQCBXFqPr7o81AWuUVRA0XXZ1l2hSJCZ0bZZm06RAFqjOok6LvsK3giAD49vBORyxH2nEiiF6YzsvO9ao9pmNF5G0Ck6iIJSow/4P7hcRjbB77VGbx6HMqh5I1hEwKAWfzBAx4TcCgiUId4X/CrD9OqDgDV6kIRYoztQg2Roz3pEaSadVfi6ZVoVcLnaHag0sklBldi22fihYLFUo4c2gWlazXT2TWTQ08vIRUR1HRF+PXUW0Z4ACH+k1MyGfquBHPHg43hHPw/WLVVBnBlBTnNz24MU8OdDqf/tofSNN95447+IfwMBRgfkyPusAAAAAElFTkSuQmCC"></div>
+        </div>
+    </form>
+    </div>
+        <div class="leftmenu">
+           
+    <div class="Oz Sz"><a title="instagram" href="https://www.instagram.com/humans.uz/" target="_blank" rel="noreferrer noopener" class="Pz"><svg width="24" height="24" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path transform="translate(2,2)" d="M4.66661 0.222656H11.3333C12.512 0.222656 13.6425 0.690909 14.476 1.5244C15.3095 2.3579 15.7777 3.48836 15.7777 4.6671V11.3338C15.7777 12.5125 15.3095 13.643 14.476 14.4765C13.6425 15.31 12.512 15.7782 11.3333 15.7782H4.66661C3.48787 15.7782 2.35741 15.31 1.52392 14.4765C0.690421 13.643 0.222168 12.5125 0.222168 11.3338V4.6671C0.222168 3.48836 0.690421 2.3579 1.52392 1.5244C2.35741 0.690909 3.48787 0.222656 4.66661 0.222656ZM7.99995 11.3338C8.884 11.3338 9.73185 10.9826 10.357 10.3575C10.9821 9.73234 11.3333 8.88449 11.3333 8.00043C11.3333 7.11638 10.9821 6.26853 10.357 5.64341C9.73185 5.01829 8.884 4.6671 7.99995 4.6671C7.11589 4.6671 6.26804 5.01829 5.64292 5.64341C5.0178 6.26853 4.66661 7.11638 4.66661 8.00043C4.66661 8.88449 5.0178 9.73234 5.64292 10.3575C6.26804 10.9826 7.11589 11.3338 7.99995 11.3338ZM11.8266 5.16043C11.959 5.16488 12.091 5.14263 12.2147 5.09502C12.3383 5.04741 12.4511 4.9754 12.5464 4.88329C12.6416 4.79118 12.7174 4.68085 12.7691 4.55886C12.8209 4.43687 12.8475 4.30572 12.8475 4.17321C12.8475 4.04071 12.8209 3.90956 12.7691 3.78757C12.7174 3.66558 12.6416 3.55524 12.5464 3.46313C12.4511 3.37102 12.3383 3.29902 12.2147 3.25141C12.091 3.20379 11.959 3.18155 11.8266 3.18599C11.5705 3.19458 11.3278 3.30236 11.1497 3.48656C10.9715 3.67076 10.872 3.91697 10.872 4.17321C10.872 4.42945 10.9715 4.67566 11.1497 4.85987C11.3278 5.04407 11.5705 5.15184 11.8266 5.16043Z"></path></svg></a><a title="telegram" href="https://t.me/humansuz" target="_blank" rel="noreferrer noopener" class="Pz"><svg width="24" height="24" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.6989 3.07452L1.83456 9.19239C0.745012 9.61825 0.764296 10.2193 1.64815 10.4989L5.71066 11.7668L15.1309 5.83375C15.568 5.54288 15.9762 5.7084 15.6419 6.00088L8.01832 12.8885L7.72584 17.0747C7.93154 17.0747 8.0826 17.0314 8.20794 16.9607C8.33972 16.8867 8.44257 16.7823 8.55506 16.6698L10.5413 14.7591L14.6552 17.7915C15.4041 18.2157 15.9409 17.9972 16.1401 17.094L18.8431 4.36655C19.0809 3.25451 18.4349 2.80937 17.6989 3.07452Z"></path></svg></a><a title="facebook" href="https://www.facebook.com/HumansUz?mibextid=LQQJ4d" target="_blank" rel="noreferrer noopener" class="Pz"><svg width="24" height="24" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path transform="translate(5,2)" d="M9.09678 0.222656H7.05122C4.56677 0.222656 2.96233 1.76932 2.96233 4.16377V5.69488H0.903442C0.71122 5.69488 0.555664 5.84154 0.555664 6.02266V8.65599C0.555664 8.8371 0.71122 8.98266 0.903442 8.98266H2.96233V15.4527C2.96233 15.6327 3.11789 15.7793 3.309 15.7793H6.209C6.40233 15.7793 6.55789 15.6327 6.55789 15.4527V8.98155H9.09566C9.28789 8.98155 9.44344 8.83599 9.44344 8.65488L9.44455 6.02266C9.44407 5.97938 9.43476 5.93665 9.41718 5.8971C9.3996 5.85755 9.37413 5.82201 9.34233 5.79266C9.27573 5.73042 9.18793 5.69586 9.09678 5.69599H6.55789V4.44043C6.55789 3.70043 6.74566 3.32488 7.77233 3.32488L9.09678 3.32043C9.28789 3.32043 9.44344 3.17488 9.44344 2.99377V0.549323C9.44455 0.369323 9.289 0.222656 9.09678 0.222656Z"></path></svg></a><a title="linked-in" href="https://www.linkedin.com/company/humansuz/" target="_blank" rel="noreferrer noopener" class="Pz"><svg width="24" height="24" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M3.1855 16.9999H6.32531V7.55369H3.1855V16.9999ZM4.73505 6.26382H4.75551C5.85044 6.26382 6.53187 5.53852 6.53187 4.63204C6.51141 3.70511 5.85044 2.99988 4.77636 2.99988C3.70228 2.99988 3 3.70511 3 4.63204C3 5.53852 3.68143 6.26382 4.73505 6.26382ZM14.5074 16.9999H17.6468V11.5835C17.6468 8.68207 16.0979 7.33199 14.0321 7.33199C12.3663 7.33199 11.6198 8.24752 11.2025 8.89118V7.55369H8.06292C8.10403 8.43991 8.06292 16.9999 8.06292 16.9999H11.2025V11.7247C11.2025 11.4424 11.2228 11.1603 11.3058 10.9585C11.5328 10.3945 12.0494 9.81024 12.9167 9.81024C14.0528 9.81024 14.5074 10.6764 14.5074 11.9464V16.9999Z"></path></svg></a></div>
+    <ul class="support">
+        <li class="support"> Qo'llab quvvatlash markazi</li>
+        <li class="support"> 1234</li>
+        <li class="support"> hello@humans.uz</li>
+    </ul>
+    
+        </div>
+
+       
+</body>
+
+</html>
